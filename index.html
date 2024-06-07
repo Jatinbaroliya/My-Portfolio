@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jatin's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Jatin Baroliya</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div>Hey, My Name is <span class="name">Jatin Baroliya.</span></div>
+          <div>I'm a</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="assets/dev.png" />
+        </div>
+      </section>
+      <div class="seperation"></div>
+      <section class="secondsection">
+        <div class="about"><h1>About</h1></div>
+        <section class="ssmain">
+          <div class="secondleft">
+            <h1>Skills</h1>
+            <div class="skills">
+              <img src="assets/C++.svg" />
+              <img src="/assets/C.svg" />
+              <img src="/assets/Python.svg" />
+              <img src="/assets/HTML.svg" />
+              <img src="/assets/CSS.svg" />
+              <img src="/assets/JavaScript.svg" />
+              <img src="/assets/Express-js.png" />
+              <img src="/assets/Mongodb.svg" />
+              <img src="/assets/Nodejs.svg" />
+              <img src="/assets/React.svg" />
+              <img src="/assets/Git.svg" />
+              <img src="/assets/GitHub.svg" />
+            </div>
+          </div>
+          <div class="secondright">
+            <h1>Education</h1>
+            <div class="education">
+                <div class=" edu firsted">
+                    <img src="assets/iiitkota.png">
+                    <div class="detail">
+                        <div class="heading">IIIT Kota</div>
+                        <div class="content">B.Tech. Electronics and Communication Engineering (2022-2026)</div>
+                    </div>
+                </div>
+                <div class="edu seconded">
+                    <img src="assets/webd.svg">
+                    <div class="detail">
+                        <div class="heading">Sigma Web Development</div>
+                        <div class="content">Full Stack Web Development Course By "Codewithharry" (2023)</div>
+                    </div>
+                </div>
+                <div class="edu thirded">
+                    <img src="assets/rbse.png">
+                    <div class="detail">
+                        <div class="heading">Rajasthan Board</div>
+                        <div class="content">Completed 12th Class in 2021 with 95.8% and 10th Class in 2019 with 88%</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div class="seperation"></div>
+      <section class="thirdsection">
+        <div class="projects"><h1>Projects</h1></div>
+        <section class="projectsection">
+           <div class="proj firstproject">
+            <div class="projectimage">
+                <img src="assets/TT.png">
+            </div>
+            <div class="projectdetail">
+                 <h1>Traditional Touches</h1>
+                 <p>Developed a Front-end responsive Product Selling website using HTML, CSS, and JavaScript, featuring a custom design and dynamic content. The site effectively showcases my projects and skills, offering an engaging user experience across various devices.</p>
+                 <div class="buttons">
+                    <a href="https://github.com/Jatinbaroliya/Traditional-Touches.git" target="_blank"><button><p>Repository</p></button></a>
+                    <a href="https://jatinbaroliya.github.io/Traditional-Touches/" target="_blank"><button><p>View Live</p></button></a>
+                </div>
+            </div>
+           </div>
+           <div class="proj firstproject">
+            <div class="projectimage">
+                <img src="assets/PF.png">
+            </div>
+            <div class="projectdetail">
+                 <h1>My Portfolio</h1>
+                 <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript. Designed a modern, intuitive UI and implemented interactive features like animations and form validation. Ensured cross-browser compatibility and optimized performance for fast load times.</p>
+                 <div class="buttons">
+                    <a href="#" target="_blank"><button><p>Repository</p></button></a>
+                    <a href="#" target="_blank"><button><p>View Live</p></button></a>
+                </div>
+            </div>
+           </div>
+        </section>
+      </section>
+      <div class="seperation"></div>
+    </main>
+    <script src="script.js"></script>
+    <script
+      src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"
+      loop
+    ></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full Stack Developer.", "Programmer."],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

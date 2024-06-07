@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(2, 2, 26);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+    color: rgb(215, 142, 210);
+ }
+.left{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px;
+    align-items: center;
+}
+.firstsection div{
+    width: 30%;
+}
+.leftsection div{
+    width: 100%
+}
+.name{
+    color: rgb(170, 107, 228);
+}
+.leftsection{
+    font-size: 2.5rem;
+}
+.rightsection img{
+    margin: 50px 0px;
+    width: 95%;
+}
+#element{
+    color: aquamarine;
+}
+.seperation{
+    height: 2px;
+    background-color: rgb(166, 90, 237);
+    max-width: 90%;
+    margin: auto;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    font-size: 2rem;
+}
+.ssmain{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+.secondleft>h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    font-size: 2.5rem;
+}
+.secondleft{
+    width: 50%;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.skills img{
+    margin: 30px;
+}
+.secondright>h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    font-size: 2.5rem;
+}
+.secondright{
+    width: 50%;
+}
+.education{
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+.education > div{
+    display: flex;
+    align-items: center;
+}
+.education img{
+    width: 95px;
+}
+.edu{
+    margin-bottom: 30px;
+    background-color: rgb(44, 1, 81);
+    padding: 20px;
+    border-radius: 2rem;
+}
+.heading{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.detail{
+    margin-left: 20px;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px;
+    font-size: 2rem;
+}
+.proj{
+    margin: 20px;
+    background-color: rgb(50, 15, 101);
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin: 10% auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(66, 163, 195);
+    
+}
+.projectimage{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectdetail{
+    width: 60%;
+    padding: 10px;
+}
+.projectimage img{
+    width: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 1px solid;
+    box-shadow: 10px 10px 10px black;
+    
+}
+.proj h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+.proj p{
+    font-size: 1.2rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 30px;
+}
+.buttons button{
+    border-radius: 6px;
+    background-color: rgb(219, 209, 228);
+    cursor:pointer;
+}
+
+.buttons p{
+    font-size: 15px;
+    font-weight: 530;
+    padding: 5px;
+   
+}
