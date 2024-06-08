@@ -95,8 +95,6 @@ nav ul li a:hover{
 }
 .skills img{
     margin: 30px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 .secondright>h1{
     display: flex;
