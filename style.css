@@ -362,7 +362,7 @@ textarea{
         flex-direction: column-reverse;
     }
     .firstsection div {
-        width: 65%;
+        width: 71%;
     }
     .leftsection {
         font-size: 1.6rem;
@@ -436,6 +436,7 @@ textarea{
     }
 }
 @media (max-width: 768px) {
+
     nav .menu-toggle.active + .right ul {
         display: flex;
         flex-direction: row;
