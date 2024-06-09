@@ -8,6 +8,7 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -30,6 +31,11 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(215, 142, 210);
  }
+nav .menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
 .left{
     font-size: 2rem;
     font-weight: 600;
@@ -338,7 +344,19 @@ textarea{
     }
     
 }
-@media (max-width: 500px){
+@media (max-width: 768px){
+    nav .menu-toggle {
+        display: block;
+    }
+    nav .right ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav .right ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
     .firstsection{
         display: flex;
         flex-direction: column-reverse;
@@ -415,5 +433,19 @@ textarea{
     }
     .profiledata img{
         height: 50px;
+    }
+}
+@media (max-width: 768px) {
+    nav .menu-toggle.active + .right ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav .right ul li {
+        width: 30%;
+        text-align: center;
+        margin: 5px 0;
     }
 }
