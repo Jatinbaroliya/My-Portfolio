@@ -8,13 +8,22 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 }
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3333338d;
+    z-index: 10;
+   
+}
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(2, 2, 26);
+    background-color: rgba(1, 1, 20, 0.805);
+    box-shadow: 10px 10px 10px rgba(76, 62, 62, 0.53);
 }
 nav ul{
     display: flex;
@@ -228,7 +237,7 @@ nav .menu-toggle {
     align-self: center;
     margin: 10% auto;
     border-radius: 40px;
-    border: 5px solid;
+    border: 4px solid;
 }
 .contactdata{
     margin: 40px auto;
@@ -275,7 +284,7 @@ textarea{
     border-radius: 30px;
 }
 .send{
-    width: 70%;
+    width: 72%;
     height: 40px;
     border-radius: 10px;
     margin: 3px 0px;
@@ -406,6 +415,7 @@ textarea{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        max-width: 85%;
     }
     .contactgif{
         display: flex;
@@ -413,15 +423,21 @@ textarea{
         align-items: center;
     }
     .contactgif img{
-        width: 70vw;
+        width: 75vw;
         margin: 15px 0px;
     }
     .contactdata{
-        margin: 40px auto;
         width: 100%;
     }
     .message{
         height: 200px;
+        width: 85%;
+    }
+    .send{
+        width: 89%;
+    }
+    .me{
+        width: 85%;
     }
     .profile{
         display: flex;
