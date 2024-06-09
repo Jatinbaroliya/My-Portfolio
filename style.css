@@ -375,7 +375,8 @@ textarea{
         margin: 20px;
     }
     .secondleft{
-        width:100%
+        width:100%;
+        margin:auto;
     }
     .secondright{
         width:100%;
@@ -418,6 +419,9 @@ textarea{
     .contactdata{
         margin: 40px auto;
         width: 100%;
+    }
+    .message{
+        height: 200px;
     }
     .profile{
         display: flex;
