@@ -49,7 +49,7 @@ nav ul li a:hover{
     cursor: pointer;
     position: absolute;
     font-size: 1.7em;
-    top: 20px;
+    top: 23px;
     right: 20px;
 }
 
@@ -377,25 +377,20 @@ textarea{
         width: 100%;
         position: absolute;
         top: 60px;
-        left: 0;
+        left: -30px;
         background-color: #333;
+        text-align: center;
     }
     .nav-list.active {
         display: flex;
     }
     .nav-item {
         flex: 1 1 100%;
+        width: 100%;
     }
 
 
 
-
-
-
-
-    nav .menu-toggle {
-        display: block;
-    }
     nav .right ul {
         display: none;
         flex-direction: column;
