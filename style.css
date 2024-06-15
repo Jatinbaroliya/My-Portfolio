@@ -40,10 +40,24 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(215, 142, 210);
  }
-nav .menu-toggle {
+.right{
+    position: relative;
+}
+.menu-toggle {
     display: none;
-    font-size: 1.5em;
+    flex-direction: column;
     cursor: pointer;
+    position: absolute;
+    font-size: 1.5em;
+    top: 15px;
+    right: 20px;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
 }
 .left{
     font-size: 2rem;
@@ -354,6 +368,32 @@ textarea{
     
 }
 @media (max-width: 768px){
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+    .nav-list.active {
+        display: flex;
+    }
+    .nav-item {
+        flex: 1 1 100%;
+    }
+
+
+
+
+
+
+
+
     nav .menu-toggle {
         display: block;
     }
@@ -365,6 +405,9 @@ textarea{
     nav .right ul li {
         margin: 10px 0;
         text-align: center;
+    }
+    .menu-toggle {
+        display: flex;
     }
     .firstsection{
         display: flex;
@@ -382,6 +425,7 @@ textarea{
     }
     .skills img{
         margin: 20px;
+        width: 70px;
     }
     .secondleft{
         width:100%;
@@ -397,6 +441,9 @@ textarea{
         justify-content: center;
         align-items: center;
     }
+    .proj p{
+        font-size: 1rem;
+    }
     .projectimage{
         display: flex;
         justify-content: center;
@@ -408,7 +455,7 @@ textarea{
     }
     .projectdetail{
         width: 85%;
-        text-align:center;
+        text-align:justify;
     }
     .contactus{
         display: flex;
@@ -454,20 +501,5 @@ textarea{
     }
     .profiledata img{
         height: 50px;
-    }
-}
-@media (max-width: 768px) {
-
-    nav .menu-toggle.active + .right ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav .right ul li {
-        width: 30%;
-        text-align: center;
-        margin: 5px 0;
     }
 }
