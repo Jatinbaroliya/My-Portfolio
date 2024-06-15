@@ -394,9 +394,7 @@ textarea{
 
 
 
-    nav .menu-toggle {
-        display: block;
-    }
+  
     nav .right ul {
         display: none;
         flex-direction: column;
@@ -406,9 +404,7 @@ textarea{
         margin: 10px 0;
         text-align: center;
     }
-    .menu-toggle {
-        display: flex;
-    }
+
     .firstsection{
         display: flex;
         flex-direction: column-reverse;
